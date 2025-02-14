@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li><i class="fab fa-angellist"></i></li>
+        <li><i class="fab fa-angellist"></i></li>
+        <li><i class="fas fa-baby"></i></li>
+        <li><i class="fas fa-baby"></i></li>
+        <li><i class="fas fa-bath"></i></li>
+        <li><i class="fas fa-bath"></i></li>
+        <li><i class="fas fa-bed"></i></li>
+        <li><i class="fas fa-bed"></i></li>
+        <li><i class="fas fa-candy-cane"></i></li>
+        <li><i class="fas fa-candy-cane"></i></li>
+        <li><i class="fas fa-cat"></i></li>
+        <li><i class="fas fa-cat"></i></li>
+        <li><i class="fas fa-cocktail"></i></li>
+        <li><i class="fas fa-cocktail"></i></li>
+        <li><i class="fas fa-crown"></i></li>
+        <li><i class="fas fa-crown"></i></li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Total Clicks</th>
+                <th>Matches</th>
+                <th>Unmatches</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="total-clicks">0</td>
+                <td id="matches">0</td>
+                <td id="unmatches">0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button id="refresh-button">Refresh Game</button>
+
+    <script src="game4.js"></script>
+    <script>
+        document.getElementById("refresh-button").onclick = function() {
+            location.reload();
+        }
+    </script>
+</body>
+</html>
